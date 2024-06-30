@@ -77,15 +77,15 @@ def save_to_json(data, output_file):
 if __name__ == "__main__":
     # Define os caminhos dos arquivos adicionais
     file_paths = [
-        r"C:\Users\miss\Desktop\a2x dumper\output\client.dll.hpp",
-        r"C:\Users\miss\Desktop\a2x dumper\output\buttons.hpp",
-        r"C:\Users\miss\Desktop\a2x dumper\output\offsets.hpp"
+        r"C:\Dumper\First Dump\client.dll.hpp",
+        r"C:\Dumper\First Dump\buttons.hpp",
+        r"C:\Dumper\First Dump\offsets.hpp"
     ]
 
     output_files = [
-        r"C:\Users\miss\Desktop\Nova pasta\transform\client.dll.json",
-        r"C:\Users\miss\Desktop\Nova pasta\transform\buttons.hpp.json",
-        r"C:\Users\miss\Desktop\Nova pasta\transform\offsets.hpp.json"
+        r"C:\Dumper\Second Dump\client.dll.json",
+        r"C:\Dumper\Second Dump\buttons.hpp.json",
+        r"C:\Dumper\Second Dump\offsets.hpp.json"
     ]
 
     for idx, file_path in enumerate(file_paths):
