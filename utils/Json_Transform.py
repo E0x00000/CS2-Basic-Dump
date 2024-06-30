@@ -1,4 +1,5 @@
 import json
+import os
 
 # Definindo as estruturas com os seus respectivos campos
 offsets = {
@@ -46,16 +47,16 @@ offsets = {
     ],
     "GeneralOffsets": [
         "dwEntityList", "dwLocalPlayerController", "dwGlobalVars", "dwViewAngles",
-        "dwLocalPlayerPawn", "dwWindowHeight", "dwWindowWidth", "dwPlantedC4"
+        "dwLocalPlayerPawn", "dwWindowHeight", "dwWindowWidth", "dwPlantedC4","dwViewMatrix"
     ]
 }
 
 # Lista de caminhos dos arquivos JSON
 json_files = [
-    'C:/Users/miss/Desktop/Nova pasta/transform/client.dll.json',
-    'C:/Users/miss/Desktop/Nova pasta/transform/buttons.hpp.json',
-    'C:/Users/miss/Desktop/Nova pasta/transform/offsets.hpp.json'
-]
+        r"C:\Dumper\Second Dump\client.dll.json",
+        r"C:\Dumper\Second Dump\buttons.hpp.json",
+        r"C:\Dumper\Second Dump\offsets.hpp.json"
+    ]
 
 # Função para carregar e atualizar os grupos no JSON
 def update_groups(json_data, offsets):
@@ -71,14 +72,27 @@ def update_groups(json_data, offsets):
     return new_json_data
 
 # Iterar sobre os arquivos JSON e processar cada um
+output_directory = r"C:\Dumper\Transformed Json"
+
+# Verifica se o diretório de saída existe; se não, cria-o
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
+
+# Itera sobre os arquivos JSON originais
 for file_path in json_files:
     with open(file_path, 'r') as f:
         json_data = json.load(f)
     
+    # Atualiza os grupos no JSON
     updated_json_data = update_groups(json_data, offsets)
 
-    # Salvar o JSON modificado em um novo arquivo
-    output_file = f"{file_path.split('/')[-1].split('.')[0]}_updated.json"
+    # Obtém o nome do arquivo sem extensão para usar como base no nome do arquivo de saída
+    file_name = os.path.splitext(os.path.basename(file_path))[0]
+
+    # Caminho completo para o arquivo de saída no diretório especificado
+    output_file = os.path.join(output_directory, f"{file_name}_updated.json")
+
+    # Salva o JSON modificado no novo caminho de saída
     with open(output_file, 'w') as f:
         json.dump(updated_json_data, f, indent=4)
     
