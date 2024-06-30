@@ -17,9 +17,9 @@ def generate_cpp_assignments(json_data):
 
 # Lista de caminhos dos arquivos JSON atualizados
 json_files = [
-    'offsets_updated.json',
-    'client_updated.json',
-    'buttons_updated.json'
+    r"C:\Dumper\Transformed Json\offsets.hpp_updated.json",
+    r"C:\Dumper\Transformed Json\client.dll_updated.json",
+    r"C:\Dumper\Transformed Json\buttons.hpp_updated.json"
 ]
 
 # Função para mesclar múltiplos arquivos JSON em um único dicionário
@@ -36,16 +36,8 @@ merged_json_data = merge_json_files(json_files)
 # Gerar as atribuições C++ com base no JSON unificado
 assignments = generate_cpp_assignments(merged_json_data)
 
-# Salvar as atribuições geradas em um arquivo
-output_file = "merged_assignments.txt"
-with open(output_file, 'w') as f:
-    for assignment in assignments:
-        f.write(assignment + '\n')
-
-print(f"Atribuições geradas e salvas em {output_file}")
-
 # Salvar o JSON unificado em um arquivo
-merged_json_file = "merged_data.json"
+merged_json_file = r"final.json"
 with open(merged_json_file, 'w') as f:
     json.dump(merged_json_data, f, indent=4)
 
