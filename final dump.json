@@ -41,7 +41,7 @@
         "constants": [
             {
                 "name": "m_iszPlayerName",
-                "value": "0x640"
+                "value": "0x630"
             },
             {
                 "name": "m_flGravityScale",
@@ -49,11 +49,11 @@
             },
             {
                 "name": "m_hPlayerPawn",
-                "value": "0x7EC"
+                "value": "0x7DC"
             },
             {
                 "name": "m_bPawnIsAlive",
-                "value": "0x7F4"
+                "value": "0x7E4"
             }
         ]
     },
@@ -98,7 +98,7 @@
             },
             {
                 "name": "m_ArmorValue",
-                "value": "0x22D4"
+                "value": "0x22D0"
             },
             {
                 "name": "m_hViewModel",
@@ -142,7 +142,7 @@
             },
             {
                 "name": "m_iDesiredFOV",
-                "value": "0x6D4"
+                "value": "0x6C4"
             },
             {
                 "name": "m_entitySpottedState",
@@ -219,7 +219,7 @@
         "constants": [
             {
                 "name": "m_hPawn",
-                "value": "0x60C"
+                "value": "0x5FC"
             },
             {
                 "name": "m_pObserverServices",
@@ -235,15 +235,15 @@
             },
             {
                 "name": "m_iPawnArmor",
-                "value": "0x7FC"
+                "value": "0x7EC"
             },
             {
                 "name": "m_bPawnHasDefuser",
-                "value": "0x800"
+                "value": "0x7F0"
             },
             {
                 "name": "m_bPawnHasHelmet",
-                "value": "0x801"
+                "value": "0x7F1"
             }
         ]
     },
@@ -367,7 +367,7 @@
             },
             {
                 "name": "m_pInGameMoneyServices",
-                "value": "0x700"
+                "value": "0x6F0"
             }
         ]
     },
