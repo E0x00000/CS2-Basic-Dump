@@ -19,6 +19,10 @@
                 "value": "0x17D47C8"
             },
             {
+                "name": "dwViewAngles",
+                "value": "0x19D0018"
+            },
+            {
                 "name": "dwPlantedC4",
                 "value": "0x19D0018"
             },
