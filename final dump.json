@@ -4,39 +4,35 @@
         "constants": [
             {
                 "name": "dwEntityList",
-                "value": "0x1964198"
+                "value": "0x1969668"
             },
             {
                 "name": "dwGlobalVars",
-                "value": "0x17C35E0"
+                "value": "0x17C8708"
             },
             {
                 "name": "dwLocalPlayerController",
-                "value": "0x19B3DE8"
+                "value": "0x19B91A8"
             },
             {
                 "name": "dwLocalPlayerPawn",
-                "value": "0x17CF698"
+                "value": "0x17D47C8"
             },
             {
                 "name": "dwPlantedC4",
-                "value": "0x19CC058"
-            },
-            {
-                "name": "dwViewAngles",
-                "value": "0x19D40F8"
+                "value": "0x19D0018"
             },
             {
                 "name": "dwViewMatrix",
-                "value": "0x19C6250"
+                "value": "0x19CB4D0"
             },
             {
                 "name": "dwWindowHeight",
-                "value": "0x5F3A94"
+                "value": "0x5F4BE4"
             },
             {
                 "name": "dwWindowWidth",
-                "value": "0x5F3A90"
+                "value": "0x5F4BE0"
             }
         ]
     },
@@ -45,7 +41,7 @@
         "constants": [
             {
                 "name": "m_iszPlayerName",
-                "value": "0x630"
+                "value": "0x640"
             },
             {
                 "name": "m_flGravityScale",
@@ -53,11 +49,11 @@
             },
             {
                 "name": "m_hPlayerPawn",
-                "value": "0x7DC"
+                "value": "0x7EC"
             },
             {
                 "name": "m_bPawnIsAlive",
-                "value": "0x7E4"
+                "value": "0x7F4"
             }
         ]
     },
@@ -102,7 +98,7 @@
             },
             {
                 "name": "m_ArmorValue",
-                "value": "0x22D0"
+                "value": "0x22D4"
             },
             {
                 "name": "m_hViewModel",
@@ -146,7 +142,7 @@
             },
             {
                 "name": "m_iDesiredFOV",
-                "value": "0x6C4"
+                "value": "0x6D4"
             },
             {
                 "name": "m_entitySpottedState",
@@ -223,7 +219,7 @@
         "constants": [
             {
                 "name": "m_hPawn",
-                "value": "0x5FC"
+                "value": "0x60C"
             },
             {
                 "name": "m_pObserverServices",
@@ -239,15 +235,15 @@
             },
             {
                 "name": "m_iPawnArmor",
-                "value": "0x7EC"
+                "value": "0x7FC"
             },
             {
                 "name": "m_bPawnHasDefuser",
-                "value": "0x7F0"
+                "value": "0x800"
             },
             {
                 "name": "m_bPawnHasHelmet",
-                "value": "0x7F1"
+                "value": "0x801"
             }
         ]
     },
@@ -371,7 +367,7 @@
             },
             {
                 "name": "m_pInGameMoneyServices",
-                "value": "0x6F0"
+                "value": "0x700"
             }
         ]
     },
