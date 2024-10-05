@@ -5,31 +5,31 @@
         "constants": [
             {
                 "name": "dwEntityList",
-                "value": "0x19BAC58"
+                "value": "0x19BBCC8"
             },
             {
                 "name": "dwGlobalVars",
-                "value": "0x1815F60"
+                "value": "0x1816FF0"
             },
             {
                 "name": "dwLocalPlayerController",
-                "value": "0x1A0A5F8"
+                "value": "0x1A0B668"
             },
             {
                 "name": "dwLocalPlayerPawn",
-                "value": "0x18220C8"
+                "value": "0x1823128"
             },
             {
                 "name": "dwPlantedC4",
-                "value": "0x1A20EB8"
+                "value": "0x1A21F28"
             },
             {
                 "name": "dwViewAngles",
-                "value": "0x1A26BE0"
+                "value": "0x1A27C50"
             },
             {
                 "name": "dwViewMatrix",
-                "value": "0x1A1CD70"
+                "value": "0x1A1DDE0"
             },
             {
                 "name": "dwWindowHeight",
